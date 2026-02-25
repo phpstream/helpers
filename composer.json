@@ -1,0 +1,32 @@
+{
+  "name": "phpstream/helpers",
+  "description": "Common helpers.",
+  "version": "0.0.1",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Phpstream\\Helpers\\": "src/"
+    },
+    "files": [
+      "src/classes.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Phpstream\\Helpers\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "pestphp/pest": "^4.1"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
