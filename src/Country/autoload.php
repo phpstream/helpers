@@ -10,10 +10,10 @@ if (!function_exists('country')) {
      *
      * @param string $input
      * @param IsoFormat|null $type
-     * @return bool
+     * @return ?stdClass
      */
-    function country(string $input, ?IsoFormat $type = IsoFormat::ALPHA2): bool
+    function country(string $input, ?IsoFormat $type = IsoFormat::ALPHA2): ?stdClass
     {
-        return Country::from($input, $type) !== null;
+        return Country::from($input, $type);
     }
 }

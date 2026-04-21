@@ -9,8 +9,8 @@
       "Phpstream\\Helpers\\": "src/"
     },
     "files": [
-      "src/classes.php",
-      "src/countries.php"
+      "src/Classes/autoload.php",
+      "src/Countries/autoload.php"
     ]
   },
   "autoload-dev": {
