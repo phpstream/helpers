@@ -71,7 +71,7 @@ return [
     ['numeric' => '233', 'alpha2' => 'EE', 'alpha3' => 'EST', 'name' => 'Estonia', 'currencyCode' => 'EUR', 'currencyName' => 'Euro', 'currencySymbol' => '€', 'dialCode' => '+372'],
     ['numeric' => '234', 'alpha2' => 'FO', 'alpha3' => 'FRO', 'name' => 'Faroe Islands', 'currencyCode' => 'DKK', 'currencyName' => 'Danish Krone', 'currencySymbol' => 'kr', 'dialCode' => '+298'],
     ['numeric' => '238', 'alpha2' => 'FK', 'alpha3' => 'FLK', 'name' => 'Falkland Islands (Malvinas)', 'currencyCode' => 'FKP', 'currencyName' => 'Falkland Islands Pound', 'currencySymbol' => '£', 'dialCode' => '+500'],
-    ['numeric' => '239', 'alpha2' => 'GS', 'alpha3' => 'SGS', 'name' => 'South Georgia and the South Sandwich Islands', 'currencyCode' => null, 'currencyName' => null, 'currencySymbol' => null, 'dialCode' => '+500'],
+    ['numeric' => '239', 'alpha2' => 'GS', 'alpha3' => 'SGS', 'name' => 'South Georgia and the South Sandwich Islands', 'currencyCode' => 'GBP', 'currencyName' => 'Pound Sterling', 'currencySymbol' => '£', 'dialCode' => '+500'],
     ['numeric' => '242', 'alpha2' => 'FJ', 'alpha3' => 'FJI', 'name' => 'Fiji', 'currencyCode' => 'FJD', 'currencyName' => 'Fijian Dollar', 'currencySymbol' => '$', 'dialCode' => '+679'],
     ['numeric' => '246', 'alpha2' => 'FI', 'alpha3' => 'FIN', 'name' => 'Finland', 'currencyCode' => 'EUR', 'currencyName' => 'Euro', 'currencySymbol' => '€', 'dialCode' => '+358'],
     ['numeric' => '248', 'alpha2' => 'AX', 'alpha3' => 'ALA', 'name' => 'Åland Islands', 'currencyCode' => 'EUR', 'currencyName' => 'Euro', 'currencySymbol' => '€', 'dialCode' => '+358'],
