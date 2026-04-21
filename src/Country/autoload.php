@@ -17,3 +17,16 @@ if (!function_exists('country')) {
         return Country::from($input, $type);
     }
 }
+
+if (!function_exists('countries')) {
+
+    /**
+     * Returns country meta-data.
+     *
+     * @return array<stdClass>
+     */
+    function countries(): array
+    {
+        return Country::all();
+    }
+}
