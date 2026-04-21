@@ -10,7 +10,7 @@
     },
     "files": [
       "src/Classes/autoload.php",
-      "src/Countries/autoload.php"
+      "src/Country/autoload.php"
     ]
   },
   "autoload-dev": {
