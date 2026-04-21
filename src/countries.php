@@ -5,7 +5,7 @@ use Phpstream\Helpers\Country\Country;
 if (!function_exists('country')) {
 
     /**
-     * Returns true if the given class, its parent classes or trait of their traits have the given trait.
+     * Returns country meta-data.
      *
      * @param string $input
      * @param IsoFormat|null $type
