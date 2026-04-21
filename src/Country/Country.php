@@ -22,11 +22,22 @@ class Country
      * @param string $key
      * @return array
      */
-    public static function by(string $key): array
+    public static function keyBy(string $key): array
     {
         $data = self::all();
 
         return array_column($data, null, $key);
+    }
+
+    /**
+     * Alias of keyBy().
+     *
+     * @param string $key
+     * @return array
+     */
+    public static function by(string $key): array
+    {
+        return self::by($key);
     }
 
     /**
