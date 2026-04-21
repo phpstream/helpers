@@ -37,7 +37,7 @@ class Country
      */
     public static function by(string $key): array
     {
-        return self::by($key);
+        return self::keyBy($key);
     }
 
     /**

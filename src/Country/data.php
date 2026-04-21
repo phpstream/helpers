@@ -3,7 +3,7 @@
 return [
     ['numeric' => '004', 'alpha2' => 'AF', 'alpha3' => 'AFG', 'name' => 'Afghanistan', 'currencyCode' => 'AFN', 'currencyName' => 'Afghan Afghani', 'currencySymbol' => '؋', 'dialCode' => '+93'],
     ['numeric' => '008', 'alpha2' => 'AL', 'alpha3' => 'ALB', 'name' => 'Albania', 'currencyCode' => 'ALL', 'currencyName' => 'Albanian Lek', 'currencySymbol' => 'L', 'dialCode' => '+355'],
-    ['numeric' => '010', 'alpha2' => 'AQ', 'alpha3' => 'ATA', 'name' => 'Antarctica', 'currencyCode' => null, 'currencyName' => null, 'currencySymbol' => null, 'dialCode' => null],
+    ['numeric' => '010', 'alpha2' => 'AQ', 'alpha3' => 'ATA', 'name' => 'Antarctica', 'currencyCode' => 'ATA', 'currencyName' => 'No universal currency', 'currencySymbol' => '', 'dialCode' => '+672'],
     ['numeric' => '012', 'alpha2' => 'DZ', 'alpha3' => 'DZA', 'name' => 'Algeria', 'currencyCode' => 'DZD', 'currencyName' => 'Algerian Dinar', 'currencySymbol' => 'د.ج', 'dialCode' => '+213'],
     ['numeric' => '016', 'alpha2' => 'AS', 'alpha3' => 'ASM', 'name' => 'American Samoa', 'currencyCode' => 'USD', 'currencyName' => 'United States Dollar', 'currencySymbol' => '$', 'dialCode' => '+1-684'],
     ['numeric' => '020', 'alpha2' => 'AD', 'alpha3' => 'AND', 'name' => 'Andorra', 'currencyCode' => 'EUR', 'currencyName' => 'Euro', 'currencySymbol' => '€', 'dialCode' => '+376'],
@@ -24,7 +24,7 @@ return [
     ['numeric' => '068', 'alpha2' => 'BO', 'alpha3' => 'BOL', 'name' => 'Bolivia (Plurinational State of)', 'currencyCode' => 'BOB', 'currencyName' => 'Bolivian Boliviano', 'currencySymbol' => 'Bs.', 'dialCode' => '+591'],
     ['numeric' => '070', 'alpha2' => 'BA', 'alpha3' => 'BIH', 'name' => 'Bosnia and Herzegovina', 'currencyCode' => 'BAM', 'currencyName' => 'Bosnia-Herzegovina Convertible Mark', 'currencySymbol' => 'KM', 'dialCode' => '+387'],
     ['numeric' => '072', 'alpha2' => 'BW', 'alpha3' => 'BWA', 'name' => 'Botswana', 'currencyCode' => 'BWP', 'currencyName' => 'Botswana Pula', 'currencySymbol' => 'P', 'dialCode' => '+267'],
-    ['numeric' => '074', 'alpha2' => 'BV', 'alpha3' => 'BVT', 'name' => 'Bouvet Island', 'currencyCode' => null, 'currencyName' => null, 'currencySymbol' => null, 'dialCode' => null],
+    ['numeric' => '074', 'alpha2' => 'BV', 'alpha3' => 'BVT', 'name' => 'Bouvet Island', 'currencyCode' => 'NOK', 'currencyName' => 'Norwegian Krone', 'currencySymbol' => 'kr', 'dialCode' => '+47'],
     ['numeric' => '076', 'alpha2' => 'BR', 'alpha3' => 'BRA', 'name' => 'Brazil', 'currencyCode' => 'BRL', 'currencyName' => 'Brazilian Real', 'currencySymbol' => 'R$', 'dialCode' => '+55'],
     ['numeric' => '084', 'alpha2' => 'BZ', 'alpha3' => 'BLZ', 'name' => 'Belize', 'currencyCode' => 'BZD', 'currencyName' => 'Belize Dollar', 'currencySymbol' => '$', 'dialCode' => '+501'],
     ['numeric' => '086', 'alpha2' => 'IO', 'alpha3' => 'IOT', 'name' => 'British Indian Ocean Territory', 'currencyCode' => 'USD', 'currencyName' => 'United States Dollar', 'currencySymbol' => '$', 'dialCode' => '+246'],
