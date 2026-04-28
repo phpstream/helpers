@@ -97,7 +97,7 @@ return [
     ['numeric' => '324', 'alpha2' => 'GN', 'alpha3' => 'GIN', 'name' => 'Guinea', 'currencyCode' => 'GNF', 'currencyName' => 'Guinean Franc', 'currencySymbol' => 'Fr', 'dialCode' => '+224'],
     ['numeric' => '328', 'alpha2' => 'GY', 'alpha3' => 'GUY', 'name' => 'Guyana', 'currencyCode' => 'GYD', 'currencyName' => 'Guyanese Dollar', 'currencySymbol' => '$', 'dialCode' => '+592'],
     ['numeric' => '332', 'alpha2' => 'HT', 'alpha3' => 'HTI', 'name' => 'Haiti', 'currencyCode' => 'HTG', 'currencyName' => 'Haitian Gourde', 'currencySymbol' => 'G', 'dialCode' => '+509'],
-    ['numeric' => '334', 'alpha2' => 'HM', 'alpha3' => 'HMD', 'name' => 'Heard Island and McDonald Islands', 'currencyCode' => null, 'currencyName' => null, 'currencySymbol' => null, 'dialCode' => null],
+    ['numeric' => '334', 'alpha2' => 'HM', 'alpha3' => 'HMD', 'name' => 'Heard Island and McDonald Islands', 'currencyCode' => 'AUD', 'currencyName' => 'Australian Dollar', 'currencySymbol' => 'A$', 'dialCode' => '+672'],
     ['numeric' => '336', 'alpha2' => 'VA', 'alpha3' => 'VAT', 'name' => 'Holy See', 'currencyCode' => 'EUR', 'currencyName' => 'Euro', 'currencySymbol' => '€', 'dialCode' => '+39'],
     ['numeric' => '340', 'alpha2' => 'HN', 'alpha3' => 'HND', 'name' => 'Honduras', 'currencyCode' => 'HNL', 'currencyName' => 'Honduran Lempira', 'currencySymbol' => 'L', 'dialCode' => '+504'],
     ['numeric' => '344', 'alpha2' => 'HK', 'alpha3' => 'HKG', 'name' => 'Hong Kong', 'currencyCode' => 'HKD', 'currencyName' => 'Hong Kong Dollar', 'currencySymbol' => '$', 'dialCode' => '+852'],
