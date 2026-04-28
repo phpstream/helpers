@@ -1,7 +1,7 @@
 {
   "name": "phpstream/helpers",
   "description": "Common helpers.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "library",
   "license": "MIT",
   "autoload": {
