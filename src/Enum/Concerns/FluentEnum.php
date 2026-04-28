@@ -3,7 +3,6 @@
 namespace Phpstream\Helpers\Enum\Concerns;
 
 use BackedEnum;
-use Illuminate\Support\Arr;
 
 /**
  * @mixin BackedEnum
@@ -64,28 +63,6 @@ trait FluentEnum
     public function isNot(mixed $matchingValue): bool
     {
         return !$this->is($matchingValue);
-    }
-
-    /**
-     * Return a random value of the enum cases.
-     *
-     * @param int|null $count
-     * @return array|static
-     */
-    public static function randomValue(int|null $count = null): array|string
-    {
-        return Arr::random(array_column(self::cases(), 'value'), $count);
-    }
-
-    /**
-     * Return a random case of the enum cases.
-     *
-     * @param int|null $count
-     * @return array|static
-     */
-    public static function randomCase(int|null $count = null): array|static
-    {
-        return Arr::random(self::cases(), $count);
     }
 
     /**
